@@ -2,9 +2,6 @@
   "name": "@hmh/epub-CFI",
   "description": "Epub CFI parser",
   "main": "src/epubcfi.js",
-  "scripts": {
-    "push": "git tag $(npm version $VERSION) && npm publish"
-  },
   "repository": {
     "url": "https://github.com/hmhco/EpubCFI.git"
   },
@@ -13,5 +10,6 @@
     "rsvp": "^3.5.0",
     "urijs": "^1.18.9",
     "xmldom": "^0.1.27"
-  }
+  },
+  "version": "1.0.0"
 }
